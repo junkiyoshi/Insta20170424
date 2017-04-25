@@ -4,12 +4,12 @@
 void ofApp::setup(){
 	ofSetWindowTitle("moji");
 
-	ofBackground(0);
+	ofBackground(255);
 	ofSetFrameRate(30);
 
 
-	this->font_size = 15;
-	this->font_span = ofGetWidth() / 35;
+	this->font_size = 20;
+	this->font_span = ofGetWidth() / 20;
 
 	this->font.loadFont("fonts/Kazesawa-Bold.ttf", this->font_size);
 	this->moji = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
